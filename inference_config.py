@@ -17,6 +17,8 @@ ic_config = Config({
 
 iqa_config = Config({
     "db_name": "samsung",
+    "train_dis_path": "../data_samsung/train/",
+    "dis_train_path": "../data_samsung/train.csv",
     "test_dis_path": "../data_samsung/test/",
     "dis_test_path": "../data_samsung/test.csv",
     "batch_size": 1,
