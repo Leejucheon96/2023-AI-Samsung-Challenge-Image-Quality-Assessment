@@ -23,6 +23,7 @@ Create configs and perform basic setups.
 """
 config_file = './grid-feats-vqa/configs/X-152-grid.yaml'
 data_path = {
+    'train': iqa_config.train_dis_path,
     'test': iqa_config.test_dis_path,
 }
 
